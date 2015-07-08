@@ -1,0 +1,5 @@
+adb command to start activities
+
+adb shell am start -W -a android.intent.action.VIEW -d "http://dheeraj.example.com/dheeraj?data=1" com.example.dheeraj.deeplinking
+
+adb shell am start -W -a android.intent.action.VIEW -d "http://dheeraj.example.com/dheeraj/data" com.example.dheeraj.deeplinking
